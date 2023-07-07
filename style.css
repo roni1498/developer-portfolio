@@ -1,4 +1,8 @@
 /* common shared style */
+/* . *{
+    margin: 0;
+    padding: 0;
+} */
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,11 +20,16 @@ body{
 .btn-primary:hover{
     background-color: gray;
 }
+/* header style */
+header{
+    background: #FFF8F3;
+}
 /* nav related style */
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* margin: 0px 50px; */
 }
 .nav-title{
     color: #181818;
@@ -47,4 +56,15 @@ nav a{
 }
 nav a:hover{
     color: blue;
+}
+/* banner related style */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-photo{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
