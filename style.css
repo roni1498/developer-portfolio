@@ -59,9 +59,9 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("images/header_bg.png");
+  background-image: url("images/header_bg.png") url("developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 .banner-photo {
   width: 584px;
@@ -247,6 +247,8 @@ main {
   border-radius: 5px;
   background: #fff;
   margin-top: 24px;
+  border: 0;
+  
 }
 .footer-contact-message{
     height: 180px;
@@ -263,3 +265,4 @@ footer{
 .footer-column{
     margin-top: 130px;
 }
+
