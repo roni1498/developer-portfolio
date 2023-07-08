@@ -55,13 +55,22 @@ nav a:hover {
   color: blue;
 }
 /* banner related style */
+.developer {
+  transform: rotate(-90deg);
+  color: rgba(24, 24, 24, 0.15);
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 33px;
+  text-align: left;
+}
 .banner {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("images/header_bg.png") url("developer.png");
+  background-image: url("images/header_bg.png"), url(images/developer.png) ;
   background-repeat: no-repeat;
   background-position: bottom right, top left;
+  background-size: contain;
 }
 .banner-photo {
   width: 584px;
@@ -248,21 +257,19 @@ main {
   background: #fff;
   margin-top: 24px;
   border: 0;
-  
 }
-.footer-contact-message{
-    height: 180px;
+.footer-contact-message {
+  height: 180px;
 }
-.submit-btn{
-    margin-top: 24px;
-    margin-bottom: 130px;
+.submit-btn {
+  margin-top: 24px;
+  margin-bottom: 130px;
 }
-footer{
-    background: #FFF8F3;
-    display: flex;
-    justify-content: space-around;
+footer {
+  background: #fff8f3;
+  display: flex;
+  justify-content: space-around;
 }
-.footer-column{
-    margin-top: 130px;
+.footer-column {
+  margin-top: 130px;
 }
-
